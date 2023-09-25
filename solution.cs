@@ -1,3 +1,2 @@
-function longestIncreasingSubsequence(arr) {
-    if (arr.length === 0) return 0;
-}
+let dp = Array(arr.length).fill(1);
+let max = 1;
